@@ -243,7 +243,7 @@ const QUESTIONS = [
   },
   // ----- 원본 27·48 · 문맥상 어휘 -----
   {
-    id:3, lesson:3, type:"객관식", origin:"원본 27·48", topic:"문맥상 어휘",
+    id:3, lesson:3, type:"객관식", noshuffle:true, origin:"원본 27·48", topic:"문맥상 어휘",
     body:`다음 글의 밑줄 친 ①~⑤ 중, 문맥상 낱말의 쓰임이 <b>적절하지 않은</b> 것은?
       <div class="reading">The explosion created a huge cloud of ash, so crops <b>①succeeded</b> around the world. As a result, people didn't have <b>②enough</b> food. In those days, people rode horses, but many horses were <b>③killed</b> for food. People needed a <b>④new</b> way to travel. Riders pushed the first bicycle with their <b>⑤feet</b>.</div>`,
     choices:["①succeeded","②enough","③killed","④new","⑤feet"],
@@ -251,7 +251,7 @@ const QUESTIONS = [
     explanation:"화산재가 햇빛을 가려 농작물이 '실패했다(망했다)'가 자연스러워요. <code class='eng'>succeeded</code>(성공했다)가 아니라 <b><code class='eng'>failed</code>(실패했다)</b>가 맞아요. 그래야 뒤의 '먹을 음식이 부족했다'와 연결돼요!"
   },
   {
-    id:4, lesson:3, type:"객관식", origin:"원본 27·48", topic:"문맥상 어휘",
+    id:4, lesson:3, type:"객관식", noshuffle:true, origin:"원본 27·48", topic:"문맥상 어휘",
     body:`다음 글의 밑줄 친 ①~⑤ 중, 문맥상 낱말의 쓰임이 <b>적절하지 않은</b> 것은?
       <div class="reading">Graham was a <b>①bad</b> typist, so she needed a <b>②solution</b>. She saw painters <b>③correct</b> their mistakes by painting over them. The next day, she made white paint and <b>④destroyed</b> her typing mistakes. Surprisingly, nobody <b>⑤noticed</b>!</div>`,
     choices:["①bad","②solution","③correct","④destroyed","⑤noticed"],
@@ -277,7 +277,7 @@ const QUESTIONS = [
   },
   // ----- 원본 28·33·37·38 · 문장 삽입 -----
   {
-    id:7, lesson:3, type:"객관식", origin:"원본 33·37·38", topic:"문장 삽입",
+    id:7, lesson:3, type:"객관식", noshuffle:true, origin:"원본 33·37·38", topic:"문장 삽입",
     body:`글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 알맞은 곳은?
       <div class="note">People needed a new way to travel.</div>
       <div class="reading">In those days, people rode horses, but many horses were killed for food. ( ① ) Karl von Drais invented the first bicycle in Germany in 1817. ( ② ) Drais's bicycle had two wooden wheels but no pedals. ( ③ ) Riders simply pushed the bicycle forward with their feet. ( ④ )</div>`,
@@ -286,7 +286,7 @@ const QUESTIONS = [
     explanation:"'말이 식량으로 죽임을 당했다'(이동 수단이 사라짐) 다음에 <b>'새로운 이동 수단이 필요했다'</b>가 오고, 그래서 자전거를 발명했다로 이어져야 자연스러워요. 그래서 ①번 자리!"
   },
   {
-    id:8, lesson:3, type:"객관식", origin:"원본 29", topic:"문장 삽입",
+    id:8, lesson:3, type:"객관식", noshuffle:true, origin:"원본 29", topic:"문장 삽입",
     body:`글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 알맞은 곳은?
       <div class="note">As a solution, the two researchers set up a camera in front of the coffee machine.</div>
       <div class="reading">There was only one coffee machine in the building. ( ① ) So, they had to make many disappointing trips to the empty coffee pot. ( ② ) The camera took pictures of the coffee pot three times a minute. ( ③ ) With special software, all the researchers could see the pictures. ( ④ )</div>`,
@@ -483,7 +483,7 @@ const QUESTIONS = [
   },
   // ----- 원본 42 · 어법 -----
   {
-    id:23, lesson:3, type:"객관식", origin:"원본 42", topic:"어법(have to+동사원형)",
+    id:23, lesson:3, type:"객관식", noshuffle:true, origin:"원본 42", topic:"어법(have to+동사원형)",
     body:`다음 글의 밑줄 친 ①~⑤ 중, 어법상 <b>틀린</b> 것은?
       <div class="reading">The first webcam <b>①was</b> invented in 1991. The two doctors <b>②were</b> working at a lab. There was only one coffee machine, so they <b>③had</b> to <b>④making</b> many trips to <b>⑤check</b> the pot.</div>`,
     choices:["①was","②were","③had","④making","⑤check"],
@@ -491,7 +491,7 @@ const QUESTIONS = [
     explanation:"<code class='eng'>had to</code> 뒤에는 <b>동사원형</b>이 와야 해요. 그래서 <code class='eng'>making</code>(X) → <code class='eng'>make</code>(O)! 'have to/had to + 동사원형' 규칙, 꼭 기억하세요."
   },
   {
-    id:24, lesson:3, type:"객관식", origin:"원본 42", topic:"어법(did+동사원형)",
+    id:24, lesson:3, type:"객관식", noshuffle:true, origin:"원본 42", topic:"어법(did+동사원형)",
     body:`다음 글의 밑줄 친 ①~⑤ 중, 어법상 <b>틀린</b> 것은?
       <div class="reading">Drais's bicycle <b>①had</b> two wooden wheels but <b>②no</b> pedals. How <b>③did</b> it <b>④moved</b> without pedals? Riders pushed it with their <b>⑤feet</b>.</div>`,
     choices:["①had","②no","③did","④moved","⑤feet"],
@@ -794,7 +794,7 @@ const QUESTIONS = [
   },
   // ----- 원본 41·50 · 흐름과 관계없는 문장 -----
   {
-    id:47, lesson:4, type:"객관식", origin:"원본 41", topic:"관계없는 문장",
+    id:47, lesson:4, type:"객관식", noshuffle:true, origin:"원본 41", topic:"관계없는 문장",
     body:`글의 전체 흐름과 <b>관계없는</b> 문장은?
       <div class="reading">Stop, Junho! You're buying the sneakers just because you don't want to miss the sale. <b>①</b> You're falling for a hunger marketing strategy. <b>②</b> If people can buy a product only for a limited time, they often feel "hungry" for it. <b>③</b> Some people prefer to wear comfortable shoes when they go hiking. <b>④</b> About missing the sale, don't worry, Junho. <b>⑤</b> You'll soon see a similar sale again.</div>`,
     choices:["①","②","③","④","⑤"],
@@ -802,7 +802,7 @@ const QUESTIONS = [
     explanation:"글은 '헝거 마케팅'에 대한 내용이에요. ③ '편한 신발을 신고 등산한다'는 마케팅과 전혀 관계없는 문장이라 흐름에서 벗어나요!"
   },
   {
-    id:48, lesson:4, type:"객관식", origin:"원본 50", topic:"관계없는 문장",
+    id:48, lesson:4, type:"객관식", noshuffle:true, origin:"원본 50", topic:"관계없는 문장",
     body:`글의 전체 흐름과 <b>관계없는</b> 문장은?
       <div class="reading">Hold on, Somi! Your budget is 30 dollars, but you are buying a 40-dollar lipstick. <b>①</b> The 40-dollar lipstick sounds cheap only because the salesperson showed you a 50-dollar lipstick first. <b>②</b> This is an example of the anchoring effect. <b>③</b> Usually, the first piece of information becomes an "anchor." <b>④</b> Salespeople often wear uniforms to look more professional. <b>⑤</b> In your case, the 50-dollar lipstick was the anchor.</div>`,
     choices:["①","②","③","④","⑤"],
@@ -919,8 +919,23 @@ function startQuiz(){
   if(!name){ showToast('이름을 먼저 입력해 주세요 ✍️'); nameInput.focus(); return; }
   STUDENT = name;
   state.startTime = Date.now();
+  shuffleChoices();
   renderQuiz();
   show('screen-quiz');
+}
+
+// ===== 회차마다 보기 순서를 섞어 정답 위치가 매번 달라지게 함 =====
+// (번호 라벨(①②③/순서)이 보기인 문항은 noshuffle:true 로 제외)
+function shuffleChoices(){
+  QUESTIONS.forEach(q => {
+    if(q.type !== '객관식' || q.noshuffle) return;
+    const correctText = q.choices[q.answer - 1];
+    for(let i = q.choices.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random() * (i + 1));
+      [q.choices[i], q.choices[j]] = [q.choices[j], q.choices[i]];
+    }
+    q.answer = q.choices.indexOf(correctText) + 1;
+  });
 }
 
 // ============== QUIZ RENDERING ==============
@@ -1135,26 +1150,4 @@ document.addEventListener('keydown', e => {
   cards.forEach(c => {
     const q = QUESTIONS.find(x => x.id === parseInt(c.id.slice(1)));
     if(state.answers[q.id] !== undefined) return;
-    const rect = c.getBoundingClientRect();
-    if(rect.bottom < 0 || rect.top > window.innerHeight) return;
-    const dist = Math.abs((rect.top+rect.bottom)/2 - center);
-    if(dist < bestDist){ bestDist=dist; best=q; }
-  });
-  if(!best) return;
-  if(best.type === '객관식'){
-    if(/^[1-5]$/.test(e.key)){
-      const n = parseInt(e.key);
-      if(n <= best.choices.length){ e.preventDefault(); answerChoice(best.id, n); }
-    }
-  } else {
-    if(e.key === 'Enter' && e.target.tagName === 'INPUT'){ e.preventDefault(); submitText(best.id); }
-  }
-});
-
-// ============== INIT ==============
-startBtn.addEventListener('click', startQuiz);
-document.getElementById('copyBtn').addEventListener('click', copyMessage);
-refreshStart();
-</script>
-</body>
-</html>
+    const rect = c.getBoundingClientR
